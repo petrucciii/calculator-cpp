@@ -28,8 +28,8 @@ int main() {
     else if (optionSelected == 5) cout << doPI();
     else cout << "YOU MUST SELECT ONE OF THE OPTIONS!";
 
-    int esc;
-    cin >> esc;
+    cout << "\n";
+    system("pause");
 
     return 0;
 }
