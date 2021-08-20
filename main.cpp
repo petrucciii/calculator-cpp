@@ -16,7 +16,6 @@ int main() {
     cout << "What do you want to do?(1/2/3/4/5) ";
     cin >> optionSelected;
 
-
     if (optionSelected == 1) cout << EX_ADD;
     else if (optionSelected == 2) cout << EX_SUBTRACT;
     else if (optionSelected == 3) cout << EX_MULTIPLY;
