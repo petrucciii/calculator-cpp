@@ -1,11 +1,6 @@
 #include <iostream>
 #include <process.h>
-
-#include "include/execute/add.hpp"
-#include "include/execute/subtract.hpp"
-#include "include/execute/multiply.hpp"
-#include "include/execute/divide.hpp"
-#include "include/execute/PI.hpp"
+#include "math.h"
 
 using namespace std;
 
@@ -22,11 +17,11 @@ int main() {
     cin >> optionSelected;
 
 
-    if (optionSelected == 1) cout << doAdd();
-    else if (optionSelected == 2) cout << doSubtract();
-    else if (optionSelected == 3) cout << doMultiply();
-    else if (optionSelected == 4) cout << doDivide();
-    else if (optionSelected == 5) cout << doPI();
+    if (optionSelected == 1) cout << EX_ADD;
+    else if (optionSelected == 2) cout << EX_SUBTRACT;
+    else if (optionSelected == 3) cout << EX_MULTIPLY;
+    else if (optionSelected == 4) cout << EX_DIVIDE;
+    else if (optionSelected == 5) cout << EX_PI;
     else cout << "YOU MUST SELECT ONE OF THE OPTIONS!";
 
     cout << "\n";
