@@ -1,2 +1,2 @@
 # calculator-cpp
-a simple calculator in cpp
+simple calculator in c plus plus
